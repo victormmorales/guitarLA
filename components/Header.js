@@ -8,12 +8,15 @@ const Header = () => {
       <div className="contenedor">
         <div className={styles.barra}>
           <Link href="/">
-            <Image
-              src="/img/logo.svg"
-              alt="logo guitarLa"
-              width={250}
-              height={100}
-            />
+            <a>
+              <Image
+                src="/img/logo.svg"
+                alt="logo guitarLa"
+                width={250}
+                height={100}
+                priority
+              />
+            </a>
           </Link>
 
           <nav className={styles.navegacion}>

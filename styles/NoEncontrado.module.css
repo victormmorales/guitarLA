@@ -1,0 +1,27 @@
+.no_encontrado{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.no_encontrado h1{
+    color: var(--negro);
+}
+.no_encontrado a{
+    margin-top: 2rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--negro);
+    border: 2px solid var(--primary);
+    padding: 1rem 5rem;
+    transition:all 0.3s ease-in-out;
+}
+.no_encontrado a:hover{
+    background-color: var(--primary);
+    color: var(--blanco)
+}
